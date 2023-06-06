@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686045336369,
+  "timestamp": 1686051724187,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -19,7 +19,9 @@
         "/runtime.bc07acc36b18d3ff.js",
         "/styles.b60c34d46ff00952.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons"
+      ]
     },
     {
       "name": "assets",
@@ -42,7 +44,36 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "jsonplaceholder-api",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/"
+      ],
+      "strategy": "freshness",
+      "maxSize": 40,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "baconipsum-api",
+      "patterns": [
+        "https:\\/\\/baconipsum\\.com\\/api\\/"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/assets/css/animate.css": "d38cf007a7b2970de79e12cbd1519d6f5aea657f",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
