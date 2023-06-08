@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686204815447,
+  "timestamp": 1686220257443,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -51,7 +51,7 @@
         "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/"
       ],
       "strategy": "freshness",
-      "maxSize": 10,
+      "maxSize": 1,
       "maxAge": 3600000,
       "timeoutMs": 1000,
       "cacheQueryOptions": {
@@ -65,7 +65,7 @@
         "https:\\/\\/baconipsum\\.com\\/api\\/"
       ],
       "strategy": "freshness",
-      "maxSize": 10,
+      "maxSize": 1,
       "maxAge": 3600000,
       "timeoutMs": 1000,
       "cacheQueryOptions": {
@@ -87,7 +87,7 @@
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/index.html": "2a892c34585bf0a5ccd00c56accb72ee648ca139",
     "/main.4ce62c7ffe8cddbd.js": "b7e56803df8da190c274190d84ff3f328b75bac8",
-    "/manifest.webmanifest": "3dc282dc044e4220eabee70118ad50d7cadcf54a",
+    "/manifest.webmanifest": "470706d783a4b583dcbf9f9b900289d111266157",
     "/polyfills.f4c537d0e47dfc90.js": "581af49d5cbc72073072dcca94c6af871a4be05e",
     "/runtime.bc07acc36b18d3ff.js": "e5af4641ca9d1dd97f81b956e619504a3603d517",
     "/styles.b60c34d46ff00952.css": "96e180d6543b081ca65df39154200aa2657e5769"
